@@ -7,8 +7,8 @@ body, h1, p, ul {
 /* Body Styles */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #141e30, #243b55); /* Gradient background */
-    background-image: url('pattern.png'); /* Semi-transparent pattern overlay */
+    background: linear-gradient(135deg, #3498db, #8e44ad); /* Gradient background */
+    animation: backgroundAnimation 20s ease infinite; /* Smooth background animation */
 }
 
 /* Container Styles */
@@ -19,7 +19,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
     color: #fff;
     padding: 20px 0;
 }
@@ -77,8 +77,21 @@ p {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+/* Background Animation */
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
