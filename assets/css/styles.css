@@ -180,6 +180,17 @@ a {
 
 .container { padding-inline: 12px; }
 
+.has-before,
+.has-after {
+position: relative;
+z-index: 1;
+}
+
+.has-before::before,
+.has-after::after{
+  content:"";
+  position: absolute;
+}
 
 
 /*-----------------------------------*\
