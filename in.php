@@ -81,7 +81,7 @@ $interval = $birthday->diff($today);
 
 echo '<pre>';
 print_r($interval);
-echo '</pre>'
+echo '</pre>';
 
 print "<br>";
 
