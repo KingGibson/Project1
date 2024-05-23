@@ -1,4 +1,6 @@
 <?php 
+date_default_timezone_set("Africa/Nairobi");
+
 
 echo "This is my first php"; //Displaying a sentence or a string
 
@@ -21,7 +23,12 @@ print date('1'); //Displaying the current day of the week
 
 print "<br>"; //Using HTML's <br> to break a line
 
-print date('d/m/y');
+print date('L, F jS Y', strtotime('+5 months'));
+
+print "<br>";//Using HTML's <br> to break a line
+
+print "Today is " .date('l, F jS Y H:i:s');
+
 
 
 
