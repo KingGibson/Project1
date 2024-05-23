@@ -54,7 +54,7 @@ print "<br>"; //Using HTML's <br> to break a line
 
 $age = $current_year - $yob;
 
-print $fname . "  is actually " . $interval->y ."years" .$interval->m . "months, and ";
+print $fname . " is " . $age ."years old.";
 
 print $age;
 
@@ -81,7 +81,22 @@ $interval = $birthday->diff($today);
 
 echo '<pre>';
 print_r($interval);
-echo '</pre>';
+echo '</pre>'
+
+print "<br>";
+
+print $fname . "is, actually, " .$interval->y . "
+years " . $interval->m . " months, and " . 
+$interval->d . " days old.";
+
+//The if else statement 
+
+print "<br>";
+
+$adult_age =18;
+if($interval->y > $adult_age){
+    print $fname . " is an adult"
+}
 
 
 
