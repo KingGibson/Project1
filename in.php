@@ -93,10 +93,6 @@ $interval->d . " days old.";
 
 print "<br>";
 
-$adult_age =18;
-if($interval->y > $adult_age){
-    print $fname . " is an adult"
-}
 
 
 
