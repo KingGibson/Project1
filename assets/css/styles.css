@@ -250,7 +250,7 @@ z-index: 1;
   transition: transform var(--transition-2);
 }
 
-.btn:is(:hover, :focus-visible)::before { transform: translate(-50%, -50%) scale(1); }
+.btn::is(:hover, :focus-visible)::before { transform: translate(-50%, -50%) scale(1); }
 
 .w-100 { width: 100%; }
 
