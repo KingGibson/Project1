@@ -34,7 +34,7 @@ print "Today is " .date('l, F jS Y H:i:s');
 
 $fname = "Alex Okama"; //Declaration of a variable or a string or group of words
 
-$yob = 1999; //Declaration of digit or an integer
+$yob = 2006; //Declaration of digit or an integer
 
 print "<br>";
 
@@ -58,7 +58,7 @@ print $fname . " is " . $age ."years old.";
 
 print $age;
 
-$user_dob ="1999-05-26";
+$user_dob ="yob-05-26";
 
 echo $fname . "was born in " .$yob;
 
@@ -89,9 +89,16 @@ print $fname . "is, actually, " .$interval->y . "
 years " . $interval->m . " months, and " . 
 $interval->d . " days old.";
 
-//The if else statement 
+//The if... else... statement 
 
-print "<br>";
+print "<br>";//Using HTML's <br> to break a line
+
+$adult_age =18;
+if($interval->y >$adult_age){
+    print $fname . "is an adult";
+}else{
+    print $fname . "is NOT an adult";
+}
 
 
 
