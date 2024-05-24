@@ -34,3 +34,47 @@ print $user_data["Email"];
     <?php print_r($user_data);?>
 </pre>
 
+<?php 
+//Multidimentional Arrays
+
+$user_details =[
+    "Director"=> array(
+    "Fullname"=> "Alex Okama",
+    "address"=> "Mada",
+    "Email"=> "AOkama@yahoo.com",
+    "Phone"=> [
+        "Home" => "+2548458565",
+        "Work" => "+2543245679",
+        "Mobile" => "+254675645",
+    ]
+        
+    ),
+    "Secretary"=> array(
+        "Fullname"=> "Mercy Okama",
+        "address"=> "Mada",
+        "Email"=> "AOkama@yahoo.com",
+        "Phone"=> [
+            "Home" => "+2548458565",
+            "Work" => "+2543245679",
+            "Mobile" => "+254675645",
+        ]
+            
+        ),
+
+        "Manager"=> array(
+            "Fullname"=> "John Okama",
+            "address"=> "Mada",
+            "Email"=> "AOkama@yahoo.com",
+            "Phone"=> [
+                "Home" => "+2548458565",
+                "Work" => "+2543245679",
+                "Mobile" => "+254675645",
+            ]
+                
+            ),
+        ]
+
+?>
+<pre>
+    <?php print_r($user_details);?>
+</pre>
