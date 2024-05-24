@@ -72,7 +72,8 @@ $user_details =[
             ]
                 
             ),
-        ]
+        ];
+        print $user_details["Secretary"]["Phone"]["Work"];
 
 ?>
 <pre>
