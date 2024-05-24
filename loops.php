@@ -26,3 +26,13 @@ do{
 for($f=45; $f<55; $f++)
     print $f . "<br>";
 ?>
+
+<h4>ForEach</h4>
+<?php 
+$months =[ "January","Febuary","March","April","May","June","July","August","September","October","Novermber","December"];
+
+foreach($months AS $month){
+    print $month. "<br>";
+}
+
+?>
