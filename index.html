@@ -1,191 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <!--
-        -Primary Meta Tags
-    -->
-    <title>Unigine -Epic games made for True Gamers!</title>
-    <meta name="title" content="Unigine - Epic Games Made For True Gamers!">
-  <meta name="description" content="This is an esports and gaming html template">
-
-  <!--
-    -Favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-<!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
-    rel="stylesheet">
-
-  <!-- 
-    - custom css link
-  -->
+  <!--Custom css file link-->
   <link rel="stylesheet" href="./assets/css/styles.css">
-
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
-  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png">
-
 </head>
 <body>
-    
-    <!--
-        -#HEADER
-    -->
+  <!--Header Section Start-->
+  <header>
+    <a href="#" class="logo"><img src="./assets/img/logo.png" alt=""></a>
 
+    <nav class="navbar">
+    <a href="#Home"class="active">Home</a>
+    <a href="#About">About</a>
+    <a href="#Menu">Menu</a>
+    <a href="#Team">Team</a>
+    <a href="#Reservation">Reservation</a>
+    <a href="#Blog">Blog</a>
 
-    <header class="header active " data-header>
-        <div class="container">
+    </nav>
 
-            <a href="#" class="logo">
-                <img src="./assets/img/logo.svg" width="110" height="53" alt="">
-            </a>
+    <div class="icons">
+      <i class="fas fa-bars" id="Menu"></i>
+      <i class="fas fa-search"></i>
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-shopping-cart"></i>
 
-            <nav class="navbar" data-navbar>
-                <ul class="navbar-list">
+    </div>
+  </header>
+  <!--Header Section End-->
 
-                    <li class="navbar-item">
-                        <a href="#Home" class="navbar-link" data-nav-link>Home</a>
-                    </li>
+  <!--slider section start-->
+  <div class="home" id="home">
+    <div class="home-slider">
+      <div class="wrapper">
+        <div class="slide slide1">
+          <div class="content">
+            <img src="./assets/img/crown-symbol.png" alt="">
 
-
-                    <li class="navbar-item">
-                        <a href="#Tornament" class="navbar-link" data-nav-link>Tornament</a>
-                    </li>
-
-                    <li class="navbar-item">
-                        <a href="#News" class="navbar-link" data-nav-link>News</a>
-                    </li>
-
-                    <li class="navbar-item">
-                        <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
-                    </li>
-
-
-                </ul>
-
-            </nav>
-
-
-            <a href="#" class="btn" data-btn>Join our Team</a>
-
-            <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
-                <span class="line line-1"></span>
-                <span class="line line-2"></span>
-                <span class="line line-3"></span>
-                
-
-            </button>
-
-
+            <h3>Delilcious Royate</h3>
+            <h1>Gift Voucher</h1>
+            <p>
+              Give away your beloved customers 
+            </p>
+            <a href="#" class="btn">order now</a>
+          </div>
         </div>
 
+        <div class="slide slide2">
+          <div class="content">
+            <img src="./assets/img/crown-symbol.png" alt="">
 
-    </header>
+            <h3>Sale of 10% this dish</h3>
+            <h1>The Fresh</h1>
+            <p>
+              Food Restaurant
+            </p>
+            <a href="#" class="btn">order now</a>
+          </div>
+        </div>
 
+        <div class="slide slide3">
+          <div class="content">
+            <img src="./assets/img/crown-symbol.png" alt="">
 
-    <main>
-        <article>
-            <!--
-                -#HERO
-            -->
-            <div class="hero has-before" id="home">
-            <div class="container">
+            <h3>We are open</h3>
+            <h1>Fresh Fruits</h1>
+            <p>
+              You will Love it
+            </p>
+            <a href="#" class="btn">order now</a>
+          </div>
+        </div>
 
-                <p class="section-subtitle">Enjoy The Games</p>
-
-                <h1 class="h1 title hero-title">Epic Games Made for True Gamers!</h1>
-
-                <a href="#" class="btn" data-btn>Join With US</a>
-
-                <div class="hero-banner">
-                    <img src="./assets/img/hero-banner.png" width="850" height="414" alt="hero-banner" class="w-100">
-
-                    <img src="./assets/img/hero-banner-bg.png" alt="" class="hero-banner-bg">
-                </div>
-
-
-            </div>
-            </div>
-
-
-
-       <!-- 
-        - #UPCOMING
-      -->
-
-      <section class="section upcoming" aria-labelledby="upcoming-label" id="tournament">
-        <div class="container">
-
-          <p class="section-subtitle" id="upcoming-label" data-reveal="bottom">
-            Upcoming Matches
-          </p>
-
-          <h2 class="h2 section-title" data-reveal="bottom">
-            Battles Extreme <br> Masters <span class="span">Tournament</span>
-          </h2>
-
-          <p class="section-text" data-reveal="bottom">
-            Our success in creating business solutions is due in large part to our talented and highly committed team.
-          </p>
-
-          <ol class="upcoming-list">
-
-            <li class="upcoming-item">
-
-              <div class="upcoming-card left has-before" data-reveal="left">
-
-                <img src="./assets/img/team-logo-1.png" width="86" height="81" loading="lazy"
-                  alt="Purple Death Cadets" class="card-banner">
-
-                <h3 class="h3 card-title">Purple Death Cadets</h3>
-
-                <div class="card-meta">Group 04 | Match 06th</div>
-
-              </div>
-
-              
-
-            
-
-
-        </article>
-    </main>
+      </div>
+    </div>
+  </div>
+  <!--slider section End-->
 
 
 
 
+<script type="text/javascript">
+  let menu = document.querySelector('#Menu');
+  let navbar = document.querySelector('.navbar');
 
+  menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+  }
 
-
-
-
-
-
-
-
-<!--
-    -Custom js Link
--->
-<script src="./assets/js/script.js"></script>
-
-
-<!--
-    -ionicon Link
--->
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
+</script>
 </body>
 </html>
