@@ -92,17 +92,17 @@ header .icons #Menu{
 }
 .home .home-slider .slide1
 {
-  background-image: url(Project1/);
+  background-image: url("img/slideshow-9.jpg");
 
 }
 .home .home-slider .slide2
 {
-  background-image: url(slideshow-11.jpg);
+  background-image: url("img/slideshow-11.jpg");
   
 }
 .home .home-slider .slide3
 {
-  background-image: url(slideshow-8.jpg);
+  background-image: url("img/slideshow-8.jpg");
   
 }
 .home .home-slider .slide1,
