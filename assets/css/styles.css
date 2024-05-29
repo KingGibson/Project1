@@ -171,10 +171,9 @@ header .icons #Menu{
 .swiper-pagination-bullet
 {
   background:var(--light-color)!important;
-  width: 15px;
-  height: 15px;
-  border-radius: 0;
-
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 0 !important;
 }
 
 
