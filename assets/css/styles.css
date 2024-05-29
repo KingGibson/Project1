@@ -92,17 +92,17 @@ header .icons #Menu{
 }
 .home .home-slider .slide1
 {
-  background-image: url("/img/slideshow-9.jpg");
+  background: url("/img/slideshow-9.jpg");
 
 }
 .home .home-slider .slide2
 {
-  background-image: url("/img/slideshow-11.jpg");
+  background: url("/img/slideshow-11.jpg");
   
 }
 .home .home-slider .slide3
 {
-  background-image: url("/img/slideshow-8.jpg");
+  background: url("/img/slideshow-8.jpg");
   
 }
 .home .home-slider .slide1,
@@ -148,7 +148,8 @@ header .icons #Menu{
   cursor: pointer;
   padding: .8rem 3rem;
   position: relative;
-  /*overflow: hidden;*/
+  overflow: hidden;
+  z-index: 1;
 }
 .btn:before
 {
@@ -156,11 +157,15 @@ header .icons #Menu{
   width:100%;
   height: 100%;
   background: var(--light-color);
- /* z-index: -1;*/
+  z-index: -1;
   position: absolute;
   top: 0;
   left: -100%;
   transition: .5s;
+}
+.btn:hover.btn:before
+{
+  left: 0;
 
 }
 

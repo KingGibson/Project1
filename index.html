@@ -8,6 +8,10 @@
 
   <!--Custom css file link-->
   <link rel="stylesheet" href="./assets/css/styles.css">
+
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 <body>
   <!--Header Section Start-->
@@ -36,9 +40,9 @@
 
   <!--slider section start-->
   <div class="home" id="home">
-    <div class="home-slider">
-      <div class="wrapper">
-        <div class="slide slide1">
+    <div class="swiper home-slider">
+      <div class="swiper-wrapper wrapper">
+        <div class=" swiper-slide slide slide1">
           <div class="content">
             <img src="img/crown-symbol.png" alt="">
 
@@ -51,7 +55,7 @@
           </div>
         </div>
 
-        <div class="slide slide2">
+        <div class="swiper-slide slide slide2">
           <div class="content">
             <img src="img/crown-symbol.png" alt="">
 
@@ -63,7 +67,7 @@
             <a href="#" class="btn">order now</a>
           </div>
         </div>
-        <div class="slide slide3">
+        <div class=" swiper-slide slide slide3">
           <div class="content">
             <img src="img/crown-symbol.png" alt="">
 
@@ -81,6 +85,25 @@
   </div>
   <!--slider section End-->
 
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".home-slider", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 7500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop:true,
+  });
+</script>
 
 
 
