@@ -38,6 +38,7 @@ header{
   align-items: center;
   justify-content: space-between;
   box-shadow:var(--box-shadow);
+  z-index: 1000;
 }
 
 header .logo img{
@@ -166,6 +167,13 @@ header .icons #Menu{
 .btn:hover.btn:before
 {
   left: 0;
+}
+.swiper-pagination-bullet
+{
+  background:var(--light-color)!important;
+  width: 15px;
+  height: 15px;
+  border-radius: 0;
 
 }
 
