@@ -247,6 +247,22 @@ header .icons #Menu{
     background: var(--black);
   }
 
+  /*Slider media query*/
+  .home .home-slider .slide  
+{
+  justify-content: center;
+  height: 80vh;
+}
+
+.home .home-slider .slide  .content
+{
+  padding: 0;
+}
+.home .home-slider .slide  .content h1 
+{
+  font-size: 7rem;
+}
+
 }
 
 
