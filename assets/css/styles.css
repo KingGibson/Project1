@@ -272,96 +272,34 @@ section
 /*our-menu style start*/
 .our-menu
 {
-  background: url(/img/our-menu-bg-1.png)left top no-repeat, url(/img/our-menu-bg-3.jpg);
+  background: url(/img/our-menu-bg-1.png) left top no-repeat, 
+  url(/img/our-menu-bg-3.jpg);
 }
 .our-menu .menu-container
 {
+  
+  align-items: center;
   padding: 3rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50rem,2fr));
-  gap: 5rem 10rem;
+  grid-template-columns: repeat(auto-fit,minmax(50rem,2fr));
 }
-.our-menu .menu-container .item .item-name
+.our-menu .menu-container .item  .item-name
 {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
-  margin-top: .5rem ;
+  margin-top: .5rem;
 }
-.our-menu .menu-container .item .menu-item
+.our-menu .menu-container .item  .menu-item
 {
   padding: .5rem 0;
 }
-.our-menu .menu-container .item .item-name h2
-{
-font-size: 3rem;
-color: #e5e5e5;
-font-weight: 300;
-}
-.our-menu .menu-container .item .item-menu h3
-{
-  font-size: 2rem;
-  color:#e5e5e5;
-  font-weight: 200;
-  display: inline-block;
-}
-.our-menu .menu-container .item .item-menu span
-{
-  width: 37%;
-  display: inline-block;
-  border: 1px dotted #e5e5e5;
-}
-.our-menu .menu-container .item .item-menu ul
-{
-  display: flex;
-  font-size: 1.5rem;
-  list-style: none;
-  padding: .8rem 0;
-  font-weight: 200;
-}
-.our-menu .menu-container .item .item-menu ul li a
-{
-  color: #b9b9b9;
-}
+
+
 /*our-menu style ends*/
 
 /*our chef style start*/
-.our-chef
-{
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
-  grid-gap: 1.5rem;
-}
-.our-chef .item .image img
-{
-  width: 100%;
-}
-.our-chef .item
-{
-  position: relative;
-  z-index: 2;
-  overflow: hidden;
-}
-.our-chef .item:before 
-{
-  position: absolute;
-  content:'';
-  width: 100%;
-  height: 100%;
-  display: none;
-  top: 0;left: 0;right: 0;bottom: 0;
-  background: rgba(0,0 ,0 ,.5 );
-  z-index: 5;
-}
-.our-chef .item:hover.item::before
-{
-  display: block;
-} 
-.our-chef .item .chef-info
-{
-  position: absolute;
-}
+
 
 /*our chef style ends*/
 
