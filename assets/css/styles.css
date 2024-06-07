@@ -282,17 +282,43 @@ section
   padding: 3rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(50rem,2fr));
+ 
 }
 .our-menu .menu-container .item  .item-name
 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem 0;
   margin-top: .5rem;
 }
 .our-menu .menu-container .item  .menu-item
 {
   padding: .5rem 0;
+}
+.our-menu .menu-container .item  .item-menu h3,h2
+{
+  font-size: 2rem;
+  color: #e5e5e5;
+  font-weight: 200;
+  display: inline-block
+}
+.our-menu .menu-container .item  .item-menu span
+{
+  width: 37%;
+  display: inline-block;
+  border: 1px dotted #e5e5e5;
+}
+.our-menu .menu-container .item  .item-menu ul
+{
+  display: grid;
+  font-size: 1.5rem;
+  list-style-type: none;;
+  padding: .8rem 0;
+  font-weight: 200;
+}
+.our-menu .menu-container .item  .item-menu ul li a
+{
+  color: #b9b9b9;
 }
 
 
