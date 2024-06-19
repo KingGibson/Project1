@@ -70,10 +70,9 @@
   <?php include_once ("templates/menu.php"); ?> <!-- Menu php -->
 
 
+  <?php include_once ("templates/team.php"); ?> <!-- Menu php -->
 
-<!--our team section start-->
 
-<!--our team section ends-->
 
 
 
