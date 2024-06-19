@@ -1,5 +1,5 @@
-<!--our team section start-->
-<section class="our-team" id="team">
+ <!--our team section start-->
+ <section class="our-team" id="team">
   <h1 class="heading">our talented chef</h1>
   <center>
     <h3 class="sub-heading"> ~ Experience $ Enthusiasm ~</h3>
