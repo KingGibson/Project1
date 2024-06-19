@@ -69,7 +69,6 @@
 
   <?php include_once ("templates/menu.php"); ?> <!-- Menu php -->
 
-
   <?php include_once ("templates/team.php"); ?> <!-- Menu php -->
 
 
