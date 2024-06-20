@@ -8,7 +8,7 @@
   <div class="our-chef">
     <div class="item">
       <div class="image">
-        <img src="https://localhost/project1/img/our-chef-1.jpg" alt="">
+        <img src="../assets/img/our-chef-1.jpg" alt="">
       </div>
 
       <div class="chef-info">
@@ -17,10 +17,10 @@
           <span>master chef</span>
 
           <ul>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://ke.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
           </ul>
         </div>
       </div>
@@ -29,7 +29,7 @@
 
     <div class="item">
       <div class="image">
-        <img src="https://localhost/project1/img/our-chef-2.jpg" alt="">
+        <img src="../assets/img/our-chef-2.jpg" alt="">
       </div>
 
       <div class="chef-info">
@@ -38,10 +38,10 @@
           <span>master chef</span>
 
           <ul>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://ke.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
           </ul>
         </div>
       </div>
@@ -50,7 +50,7 @@
 
     <div class="item">
       <div class="image">
-        <img src="https://localhost/project1/img/our-chef-3.jpg" alt="">
+        <img src="../assets/img/our-chef-3.jpg" alt="">
       </div>
 
       <div class="chef-info">
@@ -59,10 +59,10 @@
           <span>master chef</span>
 
           <ul>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://ke.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
           </ul>
         </div>
       </div>
