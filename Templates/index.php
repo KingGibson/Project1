@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
   <!--Custom css file link-->
-  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
 
    <!-- Link Swiper's CSS -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -15,7 +15,7 @@
 </head>
 <body>
 
-  <?php include_once ("templates/nav.php"); ?> <!-- NavBar php -->
+  <?php include_once ("nav.php"); ?> <!-- NavBar php -->
 
   <!--slider section start-->
   <div class="home" id="home">
@@ -65,13 +65,13 @@
   </div>
   <!--slider section End-->
 
-  <?php include_once ("templates/welcome.php"); ?> <!-- Welcome php -->
+  <?php include_once ("welcome.php"); ?> <!-- Welcome php -->
 
-  <?php include_once ("templates/menu.php"); ?> <!-- Menu php -->
+  <?php include_once ("menu.php"); ?> <!-- Menu php -->
 
-  <?php include_once ("templates/team.php"); ?> <!-- Team php -->
+  <?php include_once ("team.php"); ?> <!-- Team php -->
 
-  <?php include_once ("templates/Reservation.php"); ?> <!-- Team php -->
+  <?php include_once ("Reservation.php"); ?> <!-- Team php -->
 
 <!--News section Start-->
 <section class="blog" id="blog">
