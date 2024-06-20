@@ -346,12 +346,13 @@ section
 {
   position: absolute;
   top: 130%;
-  left: 0;right: 0;bottom: 0;top: 0;
+  left: 0;right: 0;bottom: 0;
   display: flex;
   justify-content: center;
   z-index: 10;
-  text-align: center;
+  align-items:  center;
   transition: 1s;
+  cursor: pointer;
 }
 .our-chef .item .chef-info h3
 {
@@ -378,6 +379,10 @@ section
 {
   color: #b9b6b6;
   font-size: 1.8rem;
+}
+.our-chef .item:hover .chef-info
+{
+  top: 0;
 }
 /*our chef style ends*/
 
