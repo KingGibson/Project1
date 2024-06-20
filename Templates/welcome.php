@@ -6,7 +6,7 @@
   <div class="box-container">
     <div class="box">
       <div class="image">
-        <img src="https://localhost/project1/img/post-thumb-1.jpg" alt="">
+        <img src="../assets/img/post-thumb-1.jpg" alt="">
       </div>
 
       <div class="content">
@@ -21,7 +21,7 @@
 
     <div class="box">
       <div class="image">
-        <img src="https://localhost/project1/img/post-thumb-2.jpg" alt="">
+        <img src="../assets/img/post-thumb-2.jpg" alt="">
       </div>
 
       <div class="content">
@@ -36,7 +36,7 @@
 
     <div class="box">
       <div class="image">
-        <img src="https://localhost/project1/img/post-thumb-3.jpg" alt="">
+        <img src="../assets/img/post-thumb-3.jpg" alt="">
       </div>
 
       <div class="content">

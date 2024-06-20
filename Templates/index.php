@@ -23,7 +23,7 @@
       <div class="swiper-wrapper wrapper">
         <div class=" swiper-slide slide slide1">
           <div class="content">
-            <img src="img/crown-symbol.png" alt="">
+            <img src="../assets/img/crown-symbol.png" alt="">
 
             <h3>delicious royate</h3>
             <h1>gift voucher</h1>
@@ -36,7 +36,7 @@
 
         <div class="swiper-slide slide slide2">
           <div class="content">
-            <img src="img/crown-symbol.png" alt="">
+            <img src="../assets/img/crown-symbol.png" alt="">
 
             <h3>sale of 10% this dish</h3>
             <h1>the fresh</h1>
@@ -48,7 +48,7 @@
         </div>
         <div class=" swiper-slide slide slide3">
           <div class="content">
-            <img src="img/crown-symbol.png" alt="">
+            <img src="../assets/img/crown-symbol.png" alt="">
 
             <h3>we are open</h3>
             <h1>fresh fruits</h1>
@@ -81,7 +81,7 @@
   <div class="box-container">
     <div class="box">
       <div class="image">
-        <img src="https://localhost/project1/img/post-thumb-4.jpg" alt="">
+        <img src="../assets/img/post-thumb-4.jpg" alt="">
       </div>
 
       <div class="content">
@@ -90,14 +90,14 @@
           obtain pain of itself,because it is pain, but because occasionally
         circumstances occur</P>
         <a href="#">READ MORE</a>
-        <img src="https://localhost/project1/img/post-body-bg-1.png" alt="">
+        <img src="../assets/img/post-body-bg-1.png" alt="">
       </div>
     </div>
 
 
     <div class="box">
       <div class="image">
-        <img src="https://localhost/project1/img/post-thumb-5.jpg" alt="">
+        <img src="../assets/img/post-thumb-5.jpg" alt="">
       </div>
 
       <div class="content">
@@ -106,14 +106,14 @@
           obtain pain of itself,because it is pain, but because occasionally
         circumstances occur</P>
         <a href="#">READ MORE</a>
-        <img src="https://localhost/project1/img/post-body-bg-2.png" alt="">
+        <img src="../assets/img/post-body-bg-2.png" alt="">
       </div>
     </div>
 
 
     <div class="box">
       <div class="image">
-        <img src="https://localhost/project1/img/post-thumb-6.jpg" alt="">
+        <img src="../assets/img/post-thumb-6.jpg" alt="">
       </div>
 
       <div class="content">
@@ -122,7 +122,7 @@
           obtain pain of itself,because it is pain, but because occasionally
         circumstances occur</P>
         <a href="#">READ MORE</a>
-        <img src="https://localhost/project1/img/post-body-bg-3.png" alt="">
+        <img src="../assets/img/post-body-bg-3.png" alt="">
       </div>
     </div>
   </div>
