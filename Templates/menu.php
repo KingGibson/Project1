@@ -8,7 +8,7 @@
     <div class="item">
       <div class="item-name">
         <h2>Main Course</h2>
-        <img src="https://localhost/project1/img/drinks.png" alt="">
+        <img src="../assets/img/drinks.png" alt="">
          </div><!--item-name div ends-->
 
 
@@ -49,7 +49,7 @@
                   <div class="item">
                     <div class="item-name">
                       <h2>Soups & salads</h2>
-                      <img src="https://localhost/project1/img/drinks.png" alt="">
+                      <img src="../assets/img/drinks.png" alt="">
                        </div><!--item-name div ends-->
               
               
@@ -92,7 +92,7 @@
                                     <div class="item">
                                       <div class="item-name">
                                         <h2>Drinks</h2>
-                                    <img src="https://localhost/project1/img/drinks.png" alt="">
+                                    <img src="../assets/img/drinks.png" alt="">
                                      </div><!--item-name div ends-->
                             
                             
@@ -135,7 +135,7 @@
                                               <div class="item">
                                                 <div class="item-name">
                                                   <h2>Desserts</h2>
-                                                  <img src="https://localhost/project1/img/drinks.png" alt="">
+                                                  <img src="../assets/img/drinks.png" alt="">
                                                    </div><!--item-name div ends-->
                                           
                                           
