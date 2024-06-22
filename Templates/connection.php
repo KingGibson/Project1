@@ -4,7 +4,11 @@ $username = "root";
 $password = "";
 $dbname = "user";
 // Create connection
-$connection = mysqli_connect($servername, $username, $password,$dbname);
+$conn = mysqli_connect($servername, $username, $password,$dbname);
 
-
-if(!$connection) {die("".mysqli_connect_errno()); }
+// Check connection
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+?>

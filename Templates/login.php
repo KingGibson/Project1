@@ -48,7 +48,7 @@
         else{
             $hash = password_hash($password, PASSWORD_DEFAULT);
             $sql = "INSERT INTO `user`( `username`, `email`, `password`) VALUES ('$username','$email','$password')";
-            mysqli_query($connection, $sql);
+            mysqli_query($conn, $sql);
 
             try{
                 echo "<script>alert('You are now logged in');</script>";
@@ -62,7 +62,7 @@
 
 
     }
-    $connection->close();
+    $conn->close();
 
 
 
