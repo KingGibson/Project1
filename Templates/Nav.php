@@ -1,6 +1,6 @@
 <!--Header Section Start-->
 <header>
-    <a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
+    <a href="#" class="logo"><img src="../assets/img/logo.png" alt=""></a>
 
     <nav class="navbar">
     <a href="#Home"class="active">Home</a>
@@ -9,6 +9,9 @@
     <a href="#Team">Team</a>
     <a href="#Reservation">Reservation</a>
     <a href="#Blog">Blog</a>
+
+    <a href="login.php">Login</a>
+    <a href="registration.php">Register</a>
 
     </nav>
 
