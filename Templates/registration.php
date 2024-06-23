@@ -13,11 +13,11 @@
     <input type="text" name="name" id="name" required value=""><br>
 
     <label for="username">Username :</label>
-    <input type="text" name="Username" id="Username" required value=""><br>
+    <input type="username" name="username" id="username" required value=""><br>
 
 
     <label for="email">Email:</label>
-    <input type="email" name="Email" id="Email" required value=""><br>
+    <input type="email" name="email" id="email" required value=""><br>
 
     <label for="password">Password:</label>
     <input type="password" name=password" id="password" required value=""><br>
