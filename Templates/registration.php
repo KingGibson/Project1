@@ -34,7 +34,7 @@
 </html>
 
 <?php
-require 'connection.php'
+require 'connection.php';
     if(isset($_POST["submit"])){
     $name = $_POST["name"];
     $username = $_POST["username"];
