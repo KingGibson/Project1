@@ -10,7 +10,8 @@
     <a href="#Reservation">Reservation</a>
     <a href="#Blog">Blog</a>
 
-    
+    <a href="login.php">Login</a>
+    <a href="registration.php">Register</a>
     </nav>
 
     <div class="icons">
