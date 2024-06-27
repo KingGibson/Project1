@@ -6,7 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
-<body>
+
    
 <div class="container">
         <div class="form-container">
@@ -22,5 +22,7 @@
             </form>
         </div>
     </div>
+
+    
 </body>
 </html>

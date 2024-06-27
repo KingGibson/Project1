@@ -41,7 +41,7 @@
             </form>
         </div>
     </div>
-
+<a href="login.php">Login</a>
     <?php
     require 'connection.php';
 
