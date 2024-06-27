@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
+   
 <div class="container">
         <div class="form-container">
-            <h2>Register</h2>
+            <h2>Register Here</h2>
             <form action="connection.php" method="post">
                 <label for="first-name">First Name</label>
                 <input type="text" id="first-name" name="first_name" required>

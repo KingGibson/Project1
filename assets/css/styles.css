@@ -557,7 +557,7 @@ section
 }
 
 .form-container {
-    background-color: var(--black);
+    background-color: var(--light-color);
     padding: 30px;
     margin: 10px;
     border-radius: 10px;

@@ -9,7 +9,7 @@
 <body>
 <div class="container">
         <div class="form-container">
-            <h2>Logout</h2>
+            <h2>Logout Here</h2>
             <form action="connection.php" method="post">
                 <button type="submit">Logout</button>
             </form>
