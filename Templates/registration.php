@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-   
-<div class="container">
+    <div class="container">
         <div class="form-container">
             <h2>Register Here</h2>
-            <form action="connection.php" method="post">
+            <form action="" method="post">
                 <label for="first-name">First Name</label>
                 <input type="text" id="first-name" name="first_name" required>
                 
@@ -29,52 +28,43 @@
                     <option value="other">Other</option>
                 </select>
 
-                <label for="reg-username">Username</label>
+                <label for="username">Username</label>
                 <input type="text" id="username" name="username" required>
                 
-                <label for="reg-email">Email</label>
+                <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
                 
-                <label for="reg-password">Password</label>
+                <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
                 
                 <button type="submit">Register</button>
             </form>
         </div>
     </div>
+
+    <?php
+    require 'connection.php';
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (isset($_POST["first_name"], $_POST["last_name"], $_POST["age"], $_POST["username"], $_POST["email"], $_POST["password"])) {
+            $firstname = $_POST["first_name"];
+            $lastname = $_POST["last_name"];
+            $age = $_POST["age"];
+            $username = $_POST["username"];
+            $email = $_POST["email"];
+            $password = $_POST["password"];
+
+            $duplicate = mysqli_query($conn, "SELECT * FROM registration WHERE username='$username' OR email='$email'");
+
+            if (mysqli_num_rows($duplicate) > 0) {
+                echo "<script>alert('Username or Email has been taken');</script>";
+            } else {
+                $query = "INSERT INTO registration (firstname, lastname, age, username, email, password) VALUES ('$firstname', '$lastname', '$age', '$username', '$email', '$password')";
+                mysqli_query($conn, $query);
+                echo "<script>alert('Registration Successful');</script>";
+            }
+        }
+    }
+    ?>
 </body>
 </html>
-
-<?php
-require 'connection.php';
-if (isset($_POST["first_name"], $_POST["last_name"], $_POST["age"], $_POST["username"], $_POST["email"], $_POST["password"])){
-    $duplicate = mysqli_query($conn, "SELECT * FROM registration WHERE username= `$username`, email= `$email`");
-
-    if (mysqli_num_rows($duplicate) > 0) {
-        echo
-        "<script> alert('Username or Email has been Taken'); </script>";
-    }
-    else {
-        if($password){
-            $query = "INSERT INTO registration Values ('$firstname','$lastname','$age','$username','$email','$password')";
-            mysqli_query($conn, $query);
-
-            echo
-        "<script> alert('Registration Successful'); </script>";
-        }
-        else {
-            echo
-        "<script> alert('Password does not Match'); </script>";
-        }
-    }
-}
-
-    
-
-    
-    
- 
-
-   
-
-?>
