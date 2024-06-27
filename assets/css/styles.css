@@ -539,73 +539,77 @@ section
 }
 
 /*Register,Logout,Login, Start*/
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+
+.body-container {
+    
+    background-color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-container {
-  background-color: var(--light-color);
-  padding: 30px;
-  margin: 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 400px;
-  transition: transform 0.3s ease;
+    background-color: var(--black);
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
 }
 
 .form-container:hover {
-  transform: translateY(-5px);
+    transform: translateY(-5px);
 }
 
 h2 {
-  margin-bottom: 20px;
-  font-weight: 500;
-  text-align: center;
-  color: #333;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
 }
 
 label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 500;
-  color: #555;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
 }
 
-input {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  box-sizing: border-box;
-  font-size: 16px;
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
 button {
-  width: 100%;
-  padding: 12px;
-  background-color: var(--black);
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--light-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: var(--black);
+    background-color: var(--black);
 }
+
 /*Register,Logout,Login, End*/
