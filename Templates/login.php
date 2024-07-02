@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,12 +6,11 @@
     <title>Login</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
-
-   
-<div class="container">
+<body>
+    <div class="container">
         <div class="form-container">
             <h2>Login Here</h2>
-            <form action="connection.php" method="post">
+            <form action="index.php" method="post">
                 <label for="usernameemail">Username or Email</label>
                 <input type="text" id="usernameemail" name="usernameemail" required>
                 
@@ -22,33 +21,34 @@
             </form>
         </div>
     </div>
-<?php
-require 'connection.php';
- if (isset($_POST["username"], $_POST["password"])){
-    $username = $_POST["usernameemail"];
+    <a href="index.php"></a>
+    <?php
+session_start();
+include 'connection.php'; // Ensure your connection file is included and correct
+
+if (isset($_POST["usernameemail"], $_POST["password"])) {
+    $usernameemail = $_POST["usernameemail"];
     $password = $_POST["password"];
-    $result = mysqli_query($conn,"SELECT * FROM registration WHERE username = '$usernameemail' OR email= '$usernameemail" );
-
-    $row = mysqli_fetch_assoc($result);
-
-    if(mysqli_num_rows($result)> 0){
-
-        if($password == $rows["password"]){
+    
+    $stmt = $conn->prepare("SELECT * FROM registration WHERE username = ? OR email = ?");
+    $stmt->bind_param("ss", $usernameemail, $usernameemail);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    
+    if ($result && $result->num_rows > 0) {
+        $row = $result->fetch_assoc();
+        if (password_verify($password, $row["password"])) { // Assuming passwords are hashed
             $_SESSION["login"] = true;
             $_SESSION["id"] = $row["id"];
             header("Location: index.php");
-
-        }
-        else {
+            exit();
+        } else {
             echo "<script>alert('Wrong Password');</script>";
         }
-
-    }
-
-    else {
+    } else {
         echo "<script>alert('User not Registered');</script>";
     }
 }
- ?>   
-</body>
-</html>
+?>
+
+
