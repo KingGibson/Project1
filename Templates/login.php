@@ -21,7 +21,7 @@
             </form>
         </div>
     </div>
-    <a href="index.php"></a>
+    
     <?php
 session_start();
 include 'connection.php'; // Ensure your connection file is included and correct
