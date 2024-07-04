@@ -545,7 +545,7 @@ section
   align-items: center;
   background-image: url('../img/banner2.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: auto;
   background-repeat: no-repeat;
   min-height: 100vh;
 }

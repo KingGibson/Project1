@@ -10,7 +10,7 @@
     <div class="container">
         <div class="form-container">
             <h2>Login Here</h2>
-            <form action="index.php" method="post">
+            <form action="login.php" method="post">
                 <label for="usernameemail">Username or Email</label>
                 <input type="text" id="usernameemail" name="usernameemail" required>
                 
@@ -49,6 +49,7 @@ if (isset($_POST["usernameemail"], $_POST["password"])) {
         echo "<script>alert('User not Registered');</script>";
     }
 }
+
 ?>
 
 

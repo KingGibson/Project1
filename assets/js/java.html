@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realistic Toggle Light</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #333;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s;
+        }
+
+        .light-bulb {
+            position: relative;
+            width: 80px;
+            height: 120px;
+            background-color: #fff;
+            border-radius: 40px 40px 0 0;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .light-bulb::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 30px;
+            background-color: #999;
+            border-radius: 0 0 5px 5px;
+        }
+
+        .filament {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 4px solid #ffeb3b;
+            border-radius: 50%;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .light-bulb.on .filament {
+            opacity: 1;
+        }
+
+        .light-bulb.on {
+            background-color: #ffeb3b;
+            box-shadow: 0 0 30px rgba(255, 235, 59, 0.8);
+        }
+
+        .switch {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            outline: none;
+        }
+
+        .switch:hover {
+            background-color: #0056b3;
+        }
+
+        .switch:active {
+            background-color: #004080;
+        }
+
+        body.on {
+            background-color: #f0e68c;
+        }
+    </style>
+</head>
+<body>
+    <div class="light-bulb" id="lightBulb">
+        <div class="filament" id="filament"></div>
+    </div>
+    <button class="switch" id="lightSwitch">Turn On</button>
+
+    <script>
+        const lightBulb = document.getElementById('lightBulb');
+        const lightSwitch = document.getElementById('lightSwitch');
+        const body = document.body;
+
+        lightSwitch.addEventListener('click', () => {
+            lightBulb.classList.toggle('on');
+            body.classList.toggle('on');
+            if (lightBulb.classList.contains('on')) {
+                lightSwitch.textContent = 'Turn Off';
+            } else {
+                lightSwitch.textContent = 'Turn On';
+            }
+        });
+    </script>
+</body>
+</html>
