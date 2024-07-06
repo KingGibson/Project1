@@ -436,6 +436,132 @@ section
 }
 /*Reservation Style End*/
 
+/*Blog Style Start*/
+.blog .box-container .box 
+{
+  background: #fff;
+}
+.blog .content
+{
+  text-align: left;
+  position: relative;
+}
+.blog .content h3,
+.blog .content p,
+.blog .content a
+{
+  color: #333!important;
+}
+.blog .content a
+{
+  font-size: 14px;
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: underline;
+}
+.blog .content img 
+{
+  position: absolute;
+}
+/*Blog Style End*/
+
+/* Footer Style Start */
+.footer {
+  background: #333;
+  text-align: center;
+  color: #b2b2b2;
+  font-size: 1.3rem;
+}
+
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* Adjusted minmax values */
+  color: #b2b2b2;
+  gap: 1rem; /* Changed grid-gap to gap */
+  padding: 4rem 0;
+  border-bottom: 1px solid #b2b2b2;
+}
+
+.footer .container div {
+  padding: 0 2rem; /* Adjusted padding */
+}
+
+.footer .container h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  padding-bottom: .8rem;
+}
+
+.footer .container input {
+  width: 100%;
+  border: 1px solid #b2b2b2;
+  padding: .5rem .8rem;
+  background: transparent;
+  border-radius: 20px;
+}
+
+.footer .container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.footer .container ul li a {
+  color: #b2b2b2;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.footer .container span {
+  display: block;
+}
+/* Footer Style End */
+
+/*custom scroll bar */
+::-webkit-scrollbar
+{
+  width: 12px;
+}
+::-webkit-scrollbar-track
+{
+  background: #333;
+}
+::-webkit-scrollbar-thumb 
+{
+  background: #cdaa7c;
+}
+
+/*jump to  top page */
+.topbtn {
+  position: fixed;
+  right: 2%;
+  bottom: 10%;
+  width: 40px; /* Increased size for better usability */
+  height: 40px; /* Increased size for better usability */
+  background: #cdaa7c;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%; /* Rounded button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem; /* Increased font size */
+  transition: background 0.3s ease; /* Smooth background transition */
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+.topbtn:hover {
+  background: #b38a5c; /* Slightly darker shade on hover */
+}
+
+.topbtn:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(205, 170, 124, 0.5); /* Custom focus outline */
+}
+
+
 /*Media Query*/
 @media (max-width:991px)
 {
@@ -539,17 +665,19 @@ section
 }
 
 /*Register,Logout,Login, Start*/
+/* Container for form */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('../img/banner2.jpg');
   background-size: cover;
-  background-position: auto;
+  background-position: center; /* Changed to 'center' for better alignment */
   background-repeat: no-repeat;
   min-height: 100vh;
+  padding: 20px; /* Added padding to prevent content from touching edges */
 }
 
+/* Form container */
 .form-container {
   background-color: var(--light-color);
   padding: 30px;

@@ -1,5 +1,5 @@
 <!--News section Start-->
-<section class="blog" id="blog">
+<section class="blog welcome" id="blog">
   <h1 class="heading">latest news</h1>
   <center><h3 class="sub-heading"> ~Greate Artilces</h3></center>
 
