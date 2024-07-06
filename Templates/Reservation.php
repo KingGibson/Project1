@@ -42,14 +42,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $email = $_POST['email'];
 
-    $sql = "INSERT INTO reservation (people, time, phone, date, name, email)
-            VALUES ('$person', '$time', '$phone', '$date', '$name', '$email')";
-
-    if ($conn->query($sql) === TRUE) {
-        echo "Reservation successful!";
-    } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
+    $stmt = $conn->prepare("INSERT INTO reservation( people, reservation_time, phone, reservation_date, reservation_name, email)
+    VALUES (?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("isisss", $person, $time, $phone, $date, $name, $email);
+    $stmt->execute();
+    echo"Reservation successful!";
+    $stmt->close();
+    
 
     $conn->close();
 }
