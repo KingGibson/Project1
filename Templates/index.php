@@ -75,42 +75,8 @@
 
   <?php include_once ("news.php"); ?> <!-- News php -->
 
-  
-<!--Footer Section Start-->
-<section class="footer">
-    <img src="../assets/img/logo.png" class="logo">
+  <?php include_once ("footer.php"); ?> <!-- Footer php -->
 
-    <div class="container">
-      <div>
-        <h3>ABOUT US</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Dolorum ratione dolores perspiciatis ipsa, dolore ab veritatis, similique temporibus cupiditate saepe tenetur voluptatum impedit enim quis atque soluta qui.
-           Vero, repellat?</p>
-      </div>
-
-      <div>
-        <h3>GET NEWS & OFFERS</h3>
-        <input type="email" name="" placeholder="enter your email">
-        <ul>
-          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>CONTACT US</h3>
-        <span>Creative Networks</span>
-        <span>+(254) 0754221798</span>
-        <span>Creativenetworks@gmail.com</span>
-        <span>www.creativenetwork.in</span>
-      </div>
-    </div>
-
-    <p>&copy;2024 Reserved by creative networks</p>
-  </section>
-  <!--Footer Section Ends-->
 
   <!--Jump to top of page-->
   <a href=""><button class="topbtn"><i class="fa-solid fa-angle-up"></i></button></a>
