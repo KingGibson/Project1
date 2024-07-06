@@ -15,12 +15,12 @@
                             <option value="4">4 people</option>
                         </select>
 
-                        <input type="text" name="time" placeholder="Time">
+                        <input type="time" name="time" placeholder="Time">
                         <input type="text" name="phone" placeholder="Phone">
                     </div>
 
                     <div>
-                        <input type="text" name="date" placeholder="Date">
+                        <input type="date" name="date" placeholder="Date">
                         <input type="text" name="name" placeholder="Name">
                         <input type="email" name="email" placeholder="Email">
                     </div>
