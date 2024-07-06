@@ -37,7 +37,9 @@ if (isset($_POST["usernameemail"], $_POST["password"])) {
     
     if ($result && $result->num_rows > 0) {
         $row = $result->fetch_assoc();
-        if (password_verify($password, $row["password"])) { // Assuming passwords are hashed
+        echo "<pre>" . $row['Password'] . "</pre>" ;
+        echo "<pre>" . $password . "</pre>";
+        if ($password == $row["Password"]){ // Assuming passwords are hashed
             $_SESSION["login"] = true;
             $_SESSION["id"] = $row["id"];
             header("Location: index.php");
