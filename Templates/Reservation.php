@@ -35,7 +35,7 @@
 include 'connection.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $people = $_POST['people'];
+    $person = $_POST['people'];
     $time = $_POST['time'];
     $phone = $_POST['phone'];
     $date = $_POST['date'];
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
 
     $sql = "INSERT INTO reservation (people, time, phone, date, name, email)
-            VALUES ('$people', '$time', '$phone', '$date', '$name', '$email')";
+            VALUES ('$person', '$time', '$phone', '$date', '$name', '$email')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Reservation successful!";

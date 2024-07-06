@@ -477,13 +477,13 @@ section
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* Adjusted minmax values */
   color: #b2b2b2;
-  gap: 1rem; /* Changed grid-gap to gap */
+  gap: 1rem; 
   padding: 4rem 0;
   border-bottom: 1px solid #b2b2b2;
 }
 
 .footer .container div {
-  padding: 0 2rem; /* Adjusted padding */
+  padding: 0 2rem; 
 }
 
 .footer .container h3 {
