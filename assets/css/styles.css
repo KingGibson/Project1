@@ -469,14 +469,14 @@ section
 .footer {
   background: #333;
   text-align: center;
-  color: #b2b2b2;
+  color: #b2b2b2; /* Adjust text color here */
   font-size: 1.3rem;
 }
 
 .footer .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* Adjusted minmax values */
-  color: #b2b2b2;
+  color: #b2b2b2; /* Adjust text color here */
   gap: 1rem; 
   padding: 4rem 0;
   border-bottom: 1px solid #b2b2b2;
@@ -487,7 +487,7 @@ section
 }
 
 .footer .container h3 {
-  color: #fff;
+  color: #fff; /* Heading color */
   font-size: 1.5rem;
   padding-bottom: .8rem;
 }
@@ -508,7 +508,7 @@ section
 }
 
 .footer .container ul li a {
-  color: #b2b2b2;
+  color: #b2b2b2; /* Link color */
   margin-left: 10px;
   font-size: 18px;
 }
@@ -516,6 +516,7 @@ section
 .footer .container span {
   display: block;
 }
+
 /* Footer Style End */
 
 /*custom scroll bar */
