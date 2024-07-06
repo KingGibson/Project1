@@ -12,7 +12,15 @@
 
       <div>
         <h3>GET NEWS & OFFERS</h3>
-        <input type="email" name="" placeholder="enter your email">
+        <input type="email" name="" placeholder="Enter your email">
+        <input type="contact" name="" placeholder="Enter your contact">
+        <input type="Message" name="" placeholder="Enter your Message">
+        <center><button type="submit" class="btn">Enter</button></center>
+        
+
+        
+
+
         <ul>
           <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
           <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
