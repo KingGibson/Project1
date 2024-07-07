@@ -1,3 +1,9 @@
+  <!--Custom css file link-->
+  <link rel="stylesheet" href="../assets/css/styles.css">
+
+  <?php include_once ("nav.php"); ?> <!-- NavBar php -->
+
+
  <!--our team section start-->
  <section class="our-team" id="team">
   <h1 class="heading">our talented chef</h1>

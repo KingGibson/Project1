@@ -1,3 +1,11 @@
+ <!--Custom css file link-->
+ <link rel="stylesheet" href="../assets/css/styles.css">
+
+
+ <?php include_once ("nav.php"); ?> <!-- NavBar php -->
+
+
+
 <!--Welcome section Start-->
 <section class="welcome" id="About">
   <h1 class="heading">WELCOME TO ROYATE</h1>

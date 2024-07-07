@@ -1,3 +1,11 @@
+ <!--Custom css file link-->
+ <link rel="stylesheet" href="../assets/css/styles.css">
+
+
+ <?php include_once ("nav.php"); ?> <!-- NavBar php -->
+
+ 
+
 <!--Our menu section start-->
 <section class="our-menu" id="menu">
   <h1 class="heading">our food menu</h1>

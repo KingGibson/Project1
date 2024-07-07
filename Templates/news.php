@@ -1,3 +1,10 @@
+ <!--Custom css file link-->
+ <link rel="stylesheet" href="../assets/css/styles.css">
+ 
+ <?php include_once ("nav.php"); ?> <!-- NavBar php -->
+
+
+
 <!--News section Start-->
 <section class="blog welcome" id="blog">
   <h1 class="heading">latest news</h1>

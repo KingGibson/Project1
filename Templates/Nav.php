@@ -3,12 +3,12 @@
     <a href="#" class="logo"><img src="../assets/img/logo.png" alt=""></a>
 
     <nav class="navbar">
-    <a href="#Home"class="active">Home</a>
-    <a href="#About">About</a>
-    <a href="#Menu">Menu</a>
-    <a href="#Team">Team</a>
-    <a href="#Reservation">Reservation</a>
-    <a href="#Blog">Blog</a>
+    <a href="index.php"class="active">Home</a>
+    <a href="welcome.php">About</a>
+    <a href="menu.php">Menu</a>
+    <a href="team.php">Team</a>
+    <a href="Reservation.php">Reservation</a>
+    <a href="news.php">Blog</a>
 
     <a href="login.php">Login</a>
     <a href="registration.php">Register</a>

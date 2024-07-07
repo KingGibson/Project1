@@ -1,3 +1,10 @@
+ <!--Custom css file link-->
+ <link rel="stylesheet" href="../assets/css/styles.css">
+
+ <?php include_once ("nav.php"); ?> <!-- NavBar php -->
+
+ 
+
 <!--Reservation Section Start-->
 <div class="reservation" id="reservation">
     <div class="image"></div>
