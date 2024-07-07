@@ -664,8 +664,9 @@ section
   display: block;
 }
 }
-
 /*Register,Logout,Login, Start*/
+
+
 /* Container for form */
 .container {
   display: flex;
